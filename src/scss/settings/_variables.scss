@@ -1,0 +1,76 @@
+$background: #F1F1F1;	
+$text-color: #666666;
+$main-color: blue;
+$base-size: 20px;
+
+$breakpoints: 0;
+
+$breakpoint-small: "min-width: 375px";
+$breakpoint-small-inversed: "max-width: 374px";
+$breakpoint-medium: "min-width: 768px";
+$breakpoint-medium-inversed: "max-width: 767px";
+$breakpoint-large: "min-width: 1024px"; 
+$breakpoint-large-inversed: "max-width: 1023px";
+$breakpoint-max-page-width: "min-width: 1140px";
+
+$main-color: saddlebrown;
+
+:root {
+  //Base colors
+  --color-white: #ffffff;
+  --color-black: #181813;
+  //Primary
+  --color-primary-100: #32300f;
+  --color-primary-90: #545018;
+  --color-primary-80: #7e7825;
+  --color-primary-70: #a8a031;
+  --color-primary-60: #dbd140;
+  --color-primary-50: #fcf049;
+  --color-primary-40: #fcf267;
+  --color-primary-30: #fdf586;
+  --color-primary-20: #fdf7a4;
+  --color-primary-10: #fefac2;
+  --color-primary-0: #fefcdb;
+
+  --color-secondary-100: #090d0a;
+  --color-secondary-90: #0f1511;
+  --color-secondary-80: #17201a;
+  --color-secondary-70: #1f2a22;
+  --color-secondary-60: #26352b;
+  --color-secondary-50: #2e3f33;
+  --color-secondary-40: #515f55;
+  --color-secondary-30: #747f77;
+  --color-secondary-20: #969f99;
+  --color-secondary-10: #b9bfbb;
+  --color-secondary-0: #d5d9d6;
+
+  --color-tertiary-100: #252324;
+  --color-tertiary-90: #3d3b3c;
+  --color-tertiary-80: #5c595a;
+  --color-tertiary-70: #7a7677;
+  --color-tertiary-60: #989395;
+  --color-tertiary-50: #b7b1b3;
+  --color-tertiary-40: #c3bec0;
+  --color-tertiary-30: #cfcbcc;
+  --color-tertiary-20: #dbd8d9;
+  --color-tertiary-10: #e7e5e6;
+  --color-tertiary-0: #f1eff0;
+
+  // Gray
+  --color-gray-100: #2f2f2d;
+  --color-gray-90: #52514e;
+  --color-gray-80: #a6a49f;
+  --color-gray-70: #c9c7c2;
+  --color-gray-60: #ece9e2;
+  --color-gray-50: #f2efe8;
+  --color-gray-40: #f6f3ec;
+  --color-gray-30: #f5f3ef;
+  --color-gray-20: #f5f4f0;
+  --color-gray-10: #f9f8f5;
+  --color-gray-0: #fbfbf9;
+
+  --breakpoint-sm: "375px";
+  --breakpoint-md: "767px";
+  --breakpoint-lg: "1440px";
+  --breakpoint-max-page-width: "1855px";
+}

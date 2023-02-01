@@ -1,0 +1,45 @@
+.card {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 1em;
+
+    > * {
+      padding: .5em 1em;      
+    }
+
+    &__title {
+        color: #666666;
+    }
+
+    &__media {
+        padding: 0;
+        height: 200px;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+
+        img {
+            height: 100%;
+            width: auto;
+            max-width: initial;
+        }
+    }
+
+    &__intro {
+        color: grey;
+    }
+
+    &__button {
+        &--right {
+            text-align: right;
+        }
+        a {
+            color: $main-color;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+}
+

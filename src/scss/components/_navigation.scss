@@ -1,0 +1,95 @@
+.menu ul {
+	display: flex;
+	color: white;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0;
+
+	li {
+		list-style: none;
+		padding: 0 20px;
+		&:nth-last-child(n) {
+			padding: 0;
+		}
+		
+		a {
+			color: white;
+			font-weight: bold;
+		}
+	}
+	
+}
+
+.toggle-menu {
+	position: absolute;
+	left: -9999em;
+}
+
+@media ($breakpoint-medium-inversed) {
+	.menu ul {
+	display: none;
+		&.show {
+			display: block;
+			background: grey;	
+			padding-top: 2em;
+		}
+		li {
+			padding: .5em .25em;
+		}
+	}
+	.col-md-8.menu {
+
+		&.active {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			height: 100vh;
+			background: grey;
+			z-index: 100;
+			.toggle-menu {
+				
+			}
+		}
+	}
+	.toggle-menu {
+		position: fixed;
+		right: 10px;
+		border: 0;
+		top: 10px;
+		left: auto;
+	}
+
+	li.donate-button {
+		position: fixed;
+		bottom: 50px;
+	}
+}
+
+.toggle-menu {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    outline: none;
+}
+.toggle-menu .line {
+    background:white;
+    display: block;
+    height: 4px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    transition: all 200ms;
+    border-radius: 4px;
+}
+.toggle-menu .line:not(:last-of-type) {
+    margin-bottom: 4px;
+}
+
+.nav-active {
+	overflow: hidden;
+}
